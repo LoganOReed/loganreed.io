@@ -3,27 +3,39 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: "Bachelor's in Applied Mathematics",
 		description: '',
-		location: 'Tunisia',
+		location: 'San Marcos, Texas',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Texas State University',
+		period: { from: new Date(2017, 4, 26), to: new Date(2021, 5, 15) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'undergrad-education-item',
+		subjects: ['Data Structures', 'Algorithm', 'Discrete Math', 'Python', 'C/C++', 'Proof-based Math']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: "Master's in Mathematical Sciences",
+		description: '',
+		location: 'Camden, New Jersey',
+		logo: Assets.Unknown,
+		name: '',
+		organization: 'Rutgers University',
+		period: { from: new Date(2021, 4, 26), to: new Date(2023, 5, 15) },
+		shortDescription: '',
+		slug: 'masters-education-item',
+		subjects: ['Academic Research', 'PDEs', 'Numerical Analysis',  'High Performance Computing','Distributed Computing']
+	},
+	{
+		degree: 'PhD in Applied Mathematics',
 		description: '',
 		location: 'USA',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Temple University',
+		period: { from: new Date(2024, 8, 23) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'phd-education-item',
+		subjects: ['Numerical Linear Algebra', 'Applied Neuroscience', 'Real-Time Numerical Analysis']
 	}
 ];

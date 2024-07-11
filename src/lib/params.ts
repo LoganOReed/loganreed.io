@@ -49,12 +49,12 @@ export const HOME: HomePageParams = {
 	name: 'Logan',
 	lastName: 'Reed',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		"I'm a programmer, freelance web developer, and graduate student at Temple University in Philadelphia. My main passions are high performance and scientific computing, applied mathematics, and fullstack web development.",
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/LoganOReed' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/logan-o-reed/'
 		},
 		{
 			platform: Platform.Email,
@@ -79,8 +79,8 @@ export const SKILLS: SkillsPageParams = {
 };
 
 export const RESUME: ResumePageParams = {
-	title: 'Resumé',
-	item: ''
+	title: 'CV',
+	item: 'academicCV.pdf'
 };
 
 export const SEARCH: SearchPageParams = {
